@@ -80,7 +80,7 @@
 mismo dia</b></p>
 <div class="imagenecard">
     <div class="carro1">
-        <img src="./public/auto1 1.png" alt="auto1">
+        <img src="./public/auto1-1.webp" alt="auto1">
         <div class="caracter">
             <p><img src="./public/etiqueta 1.svg" alt="svg"> Toyota 2002 2001 km</p>
             <p><img src="./public/fecha 1.svg" alt="svg"> Toyota 2002 2000 km</p>
@@ -89,7 +89,7 @@ mismo dia</b></p>
     </div>
     
     <div class="carro2">
-        <img src="./public/auto2 1.png" alt="auto2">
+        <img src="./public/auto2-1.webp" alt="auto2">
         <div class="caracter">
             <p><img src="./public/etiqueta 1.svg" alt="svg"> Toyota 2002 2002 km</p>
             <p><img src="./public/fecha 1.svg" alt="svg"> Toyota 2002 2000 km</p>
@@ -99,7 +99,7 @@ mismo dia</b></p>
 
 
     <div class="carro3">
-        <img src="./public/auto3 2.png" alt="auto3">
+        <img src="./public/auto3-2.webp" alt="auto3">
         <div class="caracter">
         <p><img src="./public/etiqueta 1.svg" alt="svg"> Toyota 2002 2003 km</p>
             <p><img src="./public/fecha 1.svg" alt="svg"> Toyota 2002 2000 km</p>
