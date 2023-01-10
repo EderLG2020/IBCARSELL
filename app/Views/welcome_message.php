@@ -97,8 +97,9 @@ mismo dia</b></p>
         </div>
     </div>
 
+
     <div class="carro3">
-    <img src="./public/auto3 2.png" alt="auto3">
+        <img src="./public/auto3 2.png" alt="auto3">
         <div class="caracter">
         <p><img src="./public/etiqueta 1.svg" alt="svg"> Toyota 2002 2003 km</p>
             <p><img src="./public/fecha 1.svg" alt="svg"> Toyota 2002 2000 km</p>
