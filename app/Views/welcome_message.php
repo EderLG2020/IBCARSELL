@@ -76,6 +76,8 @@
     </div>
 </div>
 
+<p class="tituloCars"><b>Renueva o vende tu carro el<br>
+mismo dia</b></p>
 <div class="imagenecard">
     <div class="carro1">
         <img src="./public/auto1 1.png" alt="auto1">

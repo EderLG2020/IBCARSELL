@@ -1,10 +1,6 @@
 * {
     transition: background-color 300ms ease, color 300ms ease;
 }
-*:focus {
-    background-color: rgba(221, 72, 20, .2);
-    outline: none;
-}
 .menu{
     color:rgb(0, 0, 0);
 }
@@ -53,10 +49,6 @@ header li.menu-item a {
     padding: .4rem .65rem;
     text-align: center;
 }
-header li.menu-item a:hover,
-header li.menu-item a:focus {
-    background-color: rgba(221, 72, 20, .2);
-}
 header .logo {
     float: left;
     height: 44px;
@@ -81,11 +73,6 @@ header .menu-toggle button {
     margin: 11px 0;
     overflow: visible;
     width: 40px;
-}
-header .menu-toggle button:hover,
-header .menu-toggle button:focus {
-    background-color: rgba(221, 72, 20, .8);
-    color: rgba(255, 255, 255, .8);
 }
 header .heroe {
     margin: 0 auto;
@@ -147,9 +134,11 @@ header .heroe h2 {
 
 .imagenecard{
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    transform: translateY(-60px);
+
 }
 
 .myColor{
@@ -236,4 +225,12 @@ header .heroe h2 {
 .mensaje{
     grid-column: 2 / 2;
     grid-row: 1;
+}
+
+.tituloCars{
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    color: rgb(246, 130, 22);
+    font-size: 25px;
 }
