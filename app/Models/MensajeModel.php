@@ -1,9 +1,14 @@
+<?php namespace App\Models;
 
-<!-- define('BASEPATH') or die ('No se encontro la base de datos')
+use Codeigniter\Model;
 
-class MensajeModel extends CI_Model{
-    public function getCars(){
-        return $this->db->select('*')->from('carros')->get()->result();
+class Buscar_model extends Model{
+
+    // public function obtenerCarros($tipo){
+    public function obtenerCarros(){
+        // $query = $this->db->query("select * from carros where tipo='$tipo'");
+        $query = $this->db->query("select * from carros");
+        return $query->get();
     }
+
 }
- -->

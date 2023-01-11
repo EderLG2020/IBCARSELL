@@ -1,0 +1,161 @@
+ERROR - 2023-01-11 13:08:41 --> mysqli_sql_exception: Table 'carros' already exists in D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xamp\htdocs\proyecto1\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xamp\htdocs\proyecto1\app\Database\Migrations\2023-01-11-190320_TCarros.php(23): CodeIgniter\Database\Forge->createTable('carros')
+#5 D:\xamp\htdocs\proyecto1\system\Database\MigrationRunner.php(877): App\Database\Migrations\TCarros->up()
+#6 D:\xamp\htdocs\proyecto1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xamp\htdocs\proyecto1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xamp\htdocs\proyecto1\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xamp\htdocs\proyecto1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 D:\xamp\htdocs\proyecto1\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2023-01-11 13:15:03 --> mysqli_sql_exception: Table 'carros.users' doesn't exist in D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xamp\htdocs\proyecto1\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xamp\htdocs\proyecto1\app\Database\Seeds\Carros.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xamp\htdocs\proyecto1\system\Database\Seeder.php(146): App\Database\Seeds\Carros->run()
+#6 D:\xamp\htdocs\proyecto1\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\xamp\htdocs\proyecto1\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\proyecto1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 D:\xamp\htdocs\proyecto1\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2023-01-11 13:35:26 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\MensajeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MensajeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MensajeModel')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MensajeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:36:19 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\MensajeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MensajeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MensajeModel')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MensajeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:36:31 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\MensajeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MensajeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MensajeModel')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MensajeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:36:37 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\MensajeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MensajeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MensajeModel')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MensajeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:36:39 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\MensajeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\MensajeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MensajeModel')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MensajeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-11 13:46:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':username:, :email:)' at line 1 in D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 D:\xamp\htdocs\proyecto1\app\Database\Seeds\Carros.php(16): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...', Array)
+#4 D:\xamp\htdocs\proyecto1\system\Database\Seeder.php(146): App\Database\Seeds\Carros->run()
+#5 D:\xamp\htdocs\proyecto1\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 D:\xamp\htdocs\proyecto1\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#10 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\proyecto1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 D:\xamp\htdocs\proyecto1\spark(98): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-01-11 13:48:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':username:, :email:)' at line 1 in D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xamp\htdocs\proyecto1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 D:\xamp\htdocs\proyecto1\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 D:\xamp\htdocs\proyecto1\app\Database\Seeds\Carros.php(32): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...', Array)
+#4 D:\xamp\htdocs\proyecto1\system\Database\Seeder.php(146): App\Database\Seeds\Carros->run()
+#5 D:\xamp\htdocs\proyecto1\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 D:\xamp\htdocs\proyecto1\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 D:\xamp\htdocs\proyecto1\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#10 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 D:\xamp\htdocs\proyecto1\system\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\proyecto1\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#13 D:\xamp\htdocs\proyecto1\spark(98): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2023-01-11 13:55:28 --> Undefined property: App\Controllers\Home::$Buscar_model
+in APPPATH\Controllers\Home.php on line 15.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Buscar_model', 'APPPATH\\Controllers\\Home.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:56:49 --> Undefined property: App\Controllers\Home::$Buscar_model
+in APPPATH\Controllers\Home.php on line 15.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Buscar_model', 'APPPATH\\Controllers\\Home.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:57:27 --> Call to undefined function hola()
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:57:28 --> Call to undefined function hola()
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:57:40 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\proyecto1\app\Controllers\Home.php on line 19
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Home.php(19): view('datos.php', 'hola')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 13:57:51 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\proyecto1\app\Controllers\Home.php on line 19
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Home.php(19): view('datos.php', 'hola')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->datos()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
