@@ -38,7 +38,14 @@ h2{
    max-width: 1150px;
    width: 100%;
    margin: 0 auto;
-   position: relative;
+}
+
+.contenedorCategorias{
+   display: flex;
+   justify-content: space-evenly;
+   max-width: 1150px;
+   width: 100%;
+   margin: 0 auto;
 }
 
 a{
@@ -46,11 +53,13 @@ a{
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   position: relative;
    text-decoration: none;
    width: 144px;
    height: 144px;
    border: 2px solid #00b7e1;
    border-radius: 13px;
+   margin:5px 0 0;
    color: #00b7e1;
    padding: 0 21px;
    transition: filter .34s ease
