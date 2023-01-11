@@ -284,7 +284,7 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <img src="./public/logo.svg" alt="logo cab" id="logo-nav">
+            <img src="./public/imagen/logo.svg" alt="logo cab" id="logo-nav">
             <h1 class="titulo-nav">IBCARSELL</h1>
             <button class="nav-toggle" aria-label="Abrir menú">
                 <i class="fas fa-bars"></i>
@@ -320,7 +320,7 @@
         </div>
 
         <div>
-            <img src="./public/contenido1.jpg" alt="Logo" class="imagen-content">
+            <img src="./public/imagen/contenido1.jpg" alt="Logo" class="imagen-content">
         </div>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
@@ -419,7 +419,7 @@
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
-                <img src="./public/logo.svg" alt="Logo" class="logo-footer">
+                <img src="./public/imagen/logo.svg" alt="Logo" class="logo-footer">
                 <h3>ibcarshop.com es una plataforma<br>
                     de compra y venta de vehículos <br>
                     comercialesde distintas ramas y <br>
