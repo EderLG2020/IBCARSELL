@@ -1,4 +1,5 @@
 <!--EQUIPO 3 CULMINADO-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="./img/car.ico"/>
-    <link rel="stylesheet" type="text/css" href="./style/style.css"/>    
+    <link rel="stylesheet" type="text/css" href="./recurso/style.css"/>    
 </head>
 <body>
 <header>
@@ -32,7 +33,7 @@
         <div class="Container-card">
             <div class="card c1">
                 <div class="icon">
-                    <img src="img/transaccion.jpg" alt="">
+                    <img src="recurso/transaccion.jpg" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -40,7 +41,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="img/transaccion.jpg" alt="">
+                    <img src="recurso/transaccion.jpg" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -48,7 +49,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="img/transaccion.jpg" alt="">
+                    <img src="recurso/transaccion.jpg" alt="">
 
                     </i>
                 </div>
@@ -65,7 +66,7 @@
         <div class="column">
           <div class="f-descri">
               <div>
-                <img src="img/logo1.png" alt="" style="width: 200px;">
+                <img src="recurso/logo1.png" alt="" style="width: 200px;">
               </div>
               <div class="f-descri">
                 <p>ibcarshop.com es una plataforma de compra y venta de vehiculos comerciales de distintas ramas y categorias a precios accesibles y de manera segura</p>
@@ -77,9 +78,9 @@
           <div class="f-descri">
             <h1>Canales digitales</h1>
             <div>
-              <a href=""><img src="img/facebook-icon.png" alt=""></a>
-              <a href=""><img src="img/twitter-icon.png" alt=""></a>
-              <a href=""><img src="img/linkedin-icon.png" alt=""></a>
+              <a href=""><img src="recurso/facebook-icon.png" alt=""></a>
+              <a href=""><img src="recurso/twitter-icon.png" alt=""></a>
+              <a href=""><img src="recurso/linkedin-icon.png" alt=""></a>
               
             </div>
             <div class="text">
