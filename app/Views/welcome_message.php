@@ -85,6 +85,20 @@
         </div>
     </div>
 </div>
+
+
+<br><br>
+<div class="conteiner-parte1-2">
+            <h3 class="tituloh3">¿Que es IBCarsell?</h3>
+            <p class="parrafo-main">Es una plataforma de compra y venta de vehículos <br> seminuevos totalmente digital.</p>
+            <h3 class="tituloh3">¿Que hacemos?</h3>
+            <p class="parrafo-main">Compra y venta de Autos usados</p>
+            <p class="parrafo-main">......................</p>
+    
+            <p><img src="./public/img/facebook.svg" alt="_facebook"><img src="./public/img/twitter.svg" alt="twitter"><img src="./public/img/linkedin.svg" alt="linkedin"></p>
+        </div>
+
+
 </section>
 
 <div class="further">
