@@ -16,6 +16,6 @@ class Home extends BaseController
         // $query1 = $modelo->obtenerCarros();
         // echo view('datos.php', $datos12);
         $query1='hola';
-        echo view('datos.php',$query1);
+        echo view('datos.php');
     }
 }

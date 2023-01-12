@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Controllers\Card;
+<?php namespace App\Controllers\Card;
 use CodeIgniter\Controller;
 
 class addCard extends Controller{

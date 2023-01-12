@@ -9,8 +9,8 @@ class Carros extends Seeder
     public function run()
     {
         $data = [
-                'tipo' => 'Carrito 1 ',
-                'precio'    => '30000',
+                'tipo' => 'Carrito 2 ',
+                'precio'    => '15243',
         ];
         // Using Query Builder
         $this->db->table('carros')->insert($data);
