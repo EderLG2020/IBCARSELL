@@ -102,3 +102,13 @@ header{
 .services-container .box .btn:hover{
    background: var(--main-color)
 }    
+
+@media screen and (max-width: 512px) {
+   section{
+      padding:8px;
+   }
+
+   .services-container{
+      display: block;
+   }
+}

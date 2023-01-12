@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/IBCARSELL/';
+    public $baseURL = 'http://192.168.18.6/IBCARSELL/';
 
     /**
      * --------------------------------------------------------------------------
