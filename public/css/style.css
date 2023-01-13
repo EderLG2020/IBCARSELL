@@ -284,7 +284,14 @@ header .heroe h2 {
     }
     .tituloCars{
         font-family: 'AndadaPro-VariableFont_wght';
-        transform: translateY(180px);
+        transform: translateY(160px);
+    }
+    .conteiner-parte1-2{
+        margin-top: 150px;
+    }
+    
+   .contenedor .mensaje br{
+        display: none;
     }
 }
 
@@ -292,7 +299,7 @@ header .heroe h2 {
     .imagenecard{
         transform: translateY(120px);
         grid-template-areas:    "car1 car2"
-                                "car3 ass";
+                                "car3 car3";
     }
     .carro1{
         margin-top: 30px;
@@ -303,11 +310,17 @@ header .heroe h2 {
         grid-area: car2;
     }
     .carro3{
+        margin-left: 25%;
+        width: 50%;
         margin-top: 30px;
         grid-area: car3;
     }
 
     .Subir{
         transform: translateY(-50px);
+    }
+    .conteiner-parte1-2{
+        margin-top: 120px;
+
     }
 }
