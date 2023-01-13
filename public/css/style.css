@@ -48,7 +48,7 @@ h2{
    margin: 0 auto;
 }
 
-a{
+.etiquetas{
    display: flex;
    width: 100%;
    justify-content: space-between;
@@ -64,19 +64,74 @@ a{
    padding: 0 21px;
    transition: filter .34s ease
 }
-a:hover{
+.etiquetas:hover{
    filter: brightness(80%)
 }
 
 .contenedor p{
    margin: 0;
    bottom: 21px;
-   font: 600 19px/1 pop,sans-serif;
+   font: 600 15px/1 pop,sans-serif;
 }
 
 .contenedor img{
    width: 70px;
 }
+
+
+
+#info-vehiculo-p img{
+   width: 100%;
+   height: 70vh;
+   
+}
+#info-vehiculo-p .info-head{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 8px 5rem;
+}
+
+.info-head input{
+   border: thin solid orangered;
+   padding: 7px;
+   cursor: pointer;
+   background: none;
+}
+.info-head h2{
+   margin: 0;
+}
+
+#info-vehiculo-c{
+   max-width: 1125px;
+   margin: 0 auto;
+}
+
+#info-vehiculo-c .especificaciones{
+   margin: 2rem 0 0;
+   text-align: center;
+}
+
+.especificaciones h1{
+margin-bottom: 2rem;
+}
+
+.especificaciones-detalle{
+   display: flex;
+   max-width: 900px;
+   margin: auto;
+   justify-content: space-evenly;
+   margin-bottom: 5rem;
+}
+
+.especificaciones-detalle div span{
+   display: block;
+}
+
+.especificaciones-detalle .der{
+   font-weight: bold;
+}
+
 
 
 @media screen and (min-width: 1025px) {
@@ -93,7 +148,7 @@ a:hover{
       margin: 0 auto;
    }
 
-   a{
+   .etiquetas{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -117,6 +172,7 @@ a:hover{
 
    .contenedor p{
       position: absolute;
-
    }
+
+   
 }
