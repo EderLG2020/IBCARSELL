@@ -10,8 +10,10 @@
 <body>
    <div id="categorias">
       <h2>Busca por categoría</h2>
+
+      
       <div class="contenedor">
-         <a href=""> <p>Camionetas</p> <img src="<?= base_url('public/assets/cam.svg') ?>"> </a>
+         <a href="listar"> <p>Camionetas</p> <img src="<?= base_url('public/assets/cam.svg') ?>"> </a>
          <a href=""> <p>Deportivos</p> <img src="<?= base_url('public/assets/dep.svg') ?>"> </a>
          <a href=""> <p>Hatchback</p> <img src="<?= base_url('public/assets/hatch.svg') ?>"> </a>
          <a href=""> <p>Suv</p> <img src="<?= base_url('public/assets/suv.svg') ?>"> </a>

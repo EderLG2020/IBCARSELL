@@ -1,3 +1,10 @@
+<?php if($db2 = db_connect()){
+    echo 'conexion exitosa';
+}else{
+    echo 'error';
+}
+    ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
