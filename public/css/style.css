@@ -1,3 +1,6 @@
+@import url("../Fontz/AndadaPro-VariableFont_wght.ttf");
+@import url("../Fontz/Almarai-Bold.ttf");
+
 * {
     transition: background-color 300ms ease, color 300ms ease;
 }
@@ -157,6 +160,7 @@ header .heroe h2 {
     text-align: center;
     color: rgb(62, 10, 158);
     font-size: 12px;
+    font-family: 'Almarai-Bold';
     transform: translateY(-20px);
 }
 
@@ -184,6 +188,7 @@ header .heroe h2 {
     width: 80%;
     border-radius: 50px;
     border: 3px solid rgb(27, 173, 205);
+    text-align: center;
 }
 
 .inputBuscar::placeholder{
@@ -195,8 +200,10 @@ header .heroe h2 {
     width: 100%;
     text-align: center;
     color: rgb(246, 130, 22);
-    font-size: 25px;
+    font-size: 30px;
     transform: translateY(80px);
+    font-weight: bold;
+    font-family: 'AndadaPro-VariableFont_wght';
 }
 
 
@@ -270,11 +277,13 @@ header .heroe h2 {
         margin-top: 30px;
         padding-left: 10px;
         display: flex;
+
     }
     .buscar{
         grid-area: men1;
     }
     .tituloCars{
+        font-family: 'AndadaPro-VariableFont_wght';
         transform: translateY(180px);
     }
 }
