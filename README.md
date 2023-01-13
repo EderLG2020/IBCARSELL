@@ -16,7 +16,7 @@
 
 ## **iPhone 12 Pro** resolucion (390 x 844)
 
-![Imagen Final](https://i.ibb.co/0rKJRPY/localhost-proyecto1-i-Phone-SE.png)
+![url=https://ibb.co/pdQXBC4](https://i.ibb.co/0rKJRPY/localhost-proyecto1-i-Phone-SE.png)
 
 # Tamano iPad
 
