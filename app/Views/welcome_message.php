@@ -40,7 +40,7 @@
 
 <!-- CONTENT -->
 
-<section clasyy>
+<section class="with1G">
 <br> 
     <div class="contenedor1">
         <div class="buscar1">

@@ -1,6 +1,4 @@
 
-
-
 .header {
    background-color: azure;
    height: 80px;
@@ -78,11 +76,6 @@
    display: none;
 }
 
-/* .imagen-content{
-   margin: 10px 0 0;
-   width: 100%;
-   
-} */
 
 .info-p{
    display: flex;
@@ -250,14 +243,7 @@ width: 30%;
 
    padding: 15px;
 }
-.buscar{
-   display: flex;
-   background-color: #069;
-   padding: 15px;
-   height: 50px;
-   width: 155px;
-   border-radius: 400px;
-}
+
 .buscar_texto{
    border: none;
    background: none;
@@ -279,80 +265,6 @@ width: 30%;
 
 /* Grupo 1 */
 
-@import url("../Fontz/AndadaPro-VariableFont_wght.ttf");
-@import url("../Fontz/Almarai-Bold.ttf");
-
-* {
-    transition: background-color 300ms ease, color 300ms ease;
-}
-.menu{
-    color:rgb(0, 0, 0);
-}
-html, body {
-    color: rgba(33, 37, 41, 1);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-.header1 {
-    background-color: rgb(255, 117, 24);
-    position: absolute;
-    width: 100%;
-    height: 60px;
-}
-.menu {
-    padding: .4rem 2rem;
-}
-.header1 ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    text-align: right;
-    color:rgb(255,255,255)
-}
-
-.header1 li {
-    display: inline-block;
-}
-.header1 li a {
-    border-radius: 5px;
-    display: block;
-    height: 22px;
-    text-decoration: none;
-}
-.header1 li.menu-item a {
-    border-radius: 5px;
-    margin: 5px 0;
-    height: 17px;
-    line-height: 17px;
-    padding: .4rem .65rem;
-    text-align: center;
-}
-.header1 .logo {
-    float: left;
-    height: 44px;
-    padding: .1rem .4rem;
-}
-.header1 .menu-toggle {
-    display: none;
-    float: right;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.section1{
-    transform: translateY(70px);
-}
 
 .caracter{
     background-color:rgb(0,140,123);
@@ -360,13 +272,15 @@ html, body {
     width: 259px;
     border-radius: 50px;
     color: aliceblue;
-    font-size: 15px;
+
     text-align: center;
-    padding: 4px 0px;
+    padding: 15px 0px;
     margin:0px auto;
 }
-
-.imagencard1{
+.caracter h2{
+    font-size: 15px;
+}
+.imagenecard{
     display: grid;
     grid-template-areas:   "car1 car2 car3";
     margin: 0px, 0px;
@@ -420,24 +334,27 @@ html, body {
     width: 100%;
     position: absolute;
     grid-template-areas: "msj msj2";
+    margin-bottom: 50px;
 }
 
 
-.mensaje{
+.mensaje1{
     grid-area: msj2;
     text-align: center;
     color: rgb(62, 10, 158);
-    font-size: 12px;
-    font-family: 'Almarai-Bold';
     transform: translateY(-20px);
 }
+.mensaje1 h2{
+    font-size: 20px;
 
-.buscar1{
+}
+
+.buscar{
     grid-area: msj;
     text-align: center;
 }
 
-.buscar1 form button{
+.buscar form button{
     position: relative;
     z-index: 1;
     background-color: transparent;
@@ -456,9 +373,10 @@ html, body {
     width: 80%;
     border-radius: 50px;
     border: 3px solid rgb(27, 173, 205);
-    text-align: center;
 }
-
+.with1G{
+    width: 100%;
+}
 .inputBuscar::placeholder{
     text-align: center;
 }
@@ -468,10 +386,8 @@ html, body {
     width: 100%;
     text-align: center;
     color: rgb(246, 130, 22);
-    font-size: 30px;
+    font-size: 25px;
     transform: translateY(80px);
-    font-weight: bold;
-    font-family: 'AndadaPro-VariableFont_wght';
 }
 
 
@@ -493,15 +409,18 @@ html, body {
 }
 
 
-/*   Movil   */
 @media (max-width: 629px) {
     .section1{
         width: 100vw;
+        margin-top: -100px;
     }
     .header1 .logo {
         display: none;
     }
 
+    .conteiner-parte1-2{
+        margin-top: 180px;
+    }
     .header1 li {
         margin-top: 50px;
         /* display: block; */
@@ -517,7 +436,7 @@ html, body {
         width: calc(100%-10px);
     }
 
-    .imagencard1{
+    .imagenecard{
         transform: translateY(180px);
         grid-template-areas:    "car1"
                                 "car2"
@@ -540,36 +459,26 @@ html, body {
         grid-template-areas:    "men1"
                                 "men2";
     }
-    .mensaje{
+    .mensaje1{
         grid-area: men2;
         text-align: left;
         margin-top: 30px;
         padding-left: 10px;
         display: flex;
-
     }
-    .buscar1{
+    .buscar{
         grid-area: men1;
     }
     .tituloCars{
-        font-family: 'AndadaPro-VariableFont_wght';
-        transform: translateY(160px);
-    }
-    .conteiner-parte1-2{
-        margin-top: 150px;
-    }
-    
-   .contenedor1 .mensaje br{
-        display: none;
+        transform: translateY(180px);
     }
 }
 
-/*  iPad   */
 @media (min-width: 629px) and (max-width: 1024px) {
-    .imagencard1{
+    .imagenecard{
         transform: translateY(120px);
         grid-template-areas:    "car1 car2"
-                                "car3 car3";
+                                "car3 ass";
     }
     .carro1{
         margin-top: 30px;
@@ -580,17 +489,15 @@ html, body {
         grid-area: car2;
     }
     .carro3{
-        margin-left: 25%;
-        width: 50%;
         margin-top: 30px;
         grid-area: car3;
     }
 
+    .conteiner-parte1-2{
+        margin-top: 100px;
+    }
+
     .Subir{
         transform: translateY(-50px);
-    }
-    .conteiner-parte1-2{
-        margin-top: 120px;
-
     }
 }
