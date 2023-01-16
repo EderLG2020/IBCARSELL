@@ -1,7 +1,7 @@
 const d = document,
       $categorias = d.getElementById('categorias'),
-      $a = $categorias.querySelectorAll('.contenedor a');
-
+      $a = $categorias.querySelectorAll('.contenedor .etiquetas');
+      console.log($categorias);
       
 
 d.addEventListener('mousemove', e =>{

@@ -86,16 +86,18 @@ footer{
     display: flex;
     background: #15284B;
     justify-content: center;
-  }
-  .footer-container{
+}
+
+.footer-container{
     padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     gap: 60px;
     justify-content: center;
-  }
-  .column{
+}
+
+.column{
     display: flex;
     flex-direction: column;
     padding: 30px 10px;
@@ -104,16 +106,18 @@ footer{
     align-items: center;
     text-align: center;
     color: aliceblue;
-  }
-  .f-descri{
+}
+
+.f-descri{
     font-family:"Poppins", sans-serif;
     text-align: center;
     width: 300px;
-  }
-  .f-descri a img{
+}
+
+.f-descri a img{
     width: 30px;
-  }
-  
+}
+
 footer .environment {
     color: rgba(255, 255, 255, 1);
     padding: 2rem 1.75rem;

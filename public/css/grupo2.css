@@ -1,0 +1,306 @@
+/* pagina parte 1 */
+
+html{
+   font-family: sans-serif;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%
+}
+
+*,
+:after,
+:before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   border: 0
+}
+a {
+   background-color: transparent;
+   -webkit-text-decoration-skip: objects
+}
+a:active,
+a:hover {
+   outline-width: 0
+}
+
+h2{
+   text-align: center;
+   color: teal;
+   font: 600 30px/1 pop,sans-serif;
+   margin: 0 0 35px;
+}
+
+#categorias{
+   padding: 34px 21px 65px;
+}
+/* .contenedor{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1150px;
+   width: 100%;
+   margin: 0 auto;
+} */
+
+.contenedorCategorias{
+   display: flex;
+   justify-content: space-evenly;
+   max-width: 1150px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.etiquetas{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   
+   position: relative;
+   text-decoration: none;
+   height: 55px;
+   border: 2px solid #00b7e1;
+   border-radius: 13px;
+   margin:5px 0 0;
+   color: #00b7e1;
+   padding: 0 21px;
+   transition: filter .34s ease
+}
+.etiquetas:hover{
+   filter: brightness(80%)
+}
+
+.contenedor p{
+   margin: 0;
+   bottom: 21px;
+   font: 600 15px/1 pop,sans-serif;
+}
+
+.contenedor img{
+   width: 70px;
+}
+
+#info-vehiculo{
+   margin-top: 4.5rem;
+   text-align: center;
+}
+
+#info-vehiculo-p img{
+   width: 90%;
+   height: 70vh;
+   object-fit: fill;
+   
+}
+#info-vehiculo-p .info-head{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 8px 5rem;
+}
+
+.info-head input{
+   border: thin solid orangered;
+   padding: 7px;
+   cursor: pointer;
+   background: none;
+}
+.info-head h2{
+   margin: 0;
+}
+
+#info-vehiculo-c{
+   max-width: 1125px;
+   margin: 0 auto;
+}
+
+#info-vehiculo-c .especificaciones{
+   margin: 2rem 0 0;
+   text-align: center;
+}
+
+.especificaciones h1{
+margin-bottom: 2rem;
+}
+
+.especificaciones-detalle{
+   display: flex;
+   max-width: 900px;
+   margin: auto;
+   justify-content: space-evenly;
+   margin-bottom: 5rem;
+}
+
+.especificaciones-detalle div span{
+   display: block;
+}
+
+.especificaciones-detalle .der{
+   font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+
+   #categorias{
+      padding: 55px 0;
+   }
+
+   .contenedor{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1150px;
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .etiquetas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-decoration: none;
+      width: 120px;
+      height: 120px;
+      border: 2px solid #00b7e1;
+      border-radius: 13px;
+      margin:5px 0 0;
+      color: #00b7e1;
+      padding: 0 21px;
+      transition: filter .34s ease
+   }
+
+   .contenedor img{
+      width: 100%;
+      margin: 0 0 13px;
+   }
+
+   .contenedor p{
+      position: absolute;
+   }
+
+   
+}
+
+
+/* pagina parte 2 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-padding-top: 2rem;
+   scroll-behavior: smooth;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+}
+:root{
+   --main-color: #fe5b3d;
+   --second-color: #ffac38;
+   --text-color: #444;
+   --gradient: linear-gradient(#fe5b3d, #ffac38);
+}
+html::-webkit-scrollbar{
+   width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+   background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+   background: var(--main-color);
+   border-radius: 5rem;
+}
+section{
+   padding: 50px 100px;
+}
+header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #eeeff1;
+   padding: 15px 100px;
+}
+.heading span{
+   color: var(--main-color);
+   align-items: center;
+}
+.heading h1{
+   text-align: center;
+}
+
+.services{
+   margin-top: 15px;
+}
+.services-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+   gap: 1rem;
+   margin-top: 2rem;
+}
+.services-container .box{
+   padding: 10px;
+   border-radius: 1rem;
+   box-shadow: 1px 4px 41px rgba(0,0,0,0.1);
+   min-height: 400px;
+}
+.services-container .box .box-img{
+   width: 100%;
+   height: 200px;
+}
+.services-container .box .box-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 1rem;
+   object-fit: cover;
+   object-position: center;
+}
+.services-container .box p{
+   padding: 0 10px;
+   border: 1px solid var(--text-color);
+   width: 58px;
+   border-radius: 0.5rem;
+   margin: 1rem 0 1rem;
+}
+.services-container .box h3{
+   font-weight: 500;
+}
+.services-container .box h2{
+   font-size: 1.1rem;
+   font-weight: 600;
+   color: var(--main-color);
+   margin: 0.2rem 0 0.5rem;
+}
+.services-container .box h2 span{
+   font-size: 0.8rem;
+   font-weight: 500;
+   color: var(--text-color);
+}
+.services-container .box .btn{
+   display: flex;
+   justify-content: center;
+   background: #C0C0C0;
+   color: #fff;
+   padding: 10px;
+   border-radius: 0.5rem;
+}
+.services-container .box .btn:hover{
+   background: var(--main-color)
+}    
+
+@media screen and (max-width: 512px) {
+   section{
+      padding:8px;
+   }
+
+   .services-container{
+      display: block;
+   }
+}

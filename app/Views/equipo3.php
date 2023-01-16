@@ -1,6 +1,6 @@
 <!--EQUIPO 3 CULMINADO-->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,16 +24,16 @@
             </div>
             
         </div>
-</header>
-<section >
-    <section>
+</header> -->
+<section>
+    <section class="preguntas-f">
         <h1 class="titulo">Preguntas Frecuentes</h1>      
     </section>
-    <section>
+    <section class="preguntas-f">
         <div class="Container-card">
             <div class="card c1">
                 <div class="icon">
-                    <img src="recurso/transaccion.jpg" alt="">
+                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -41,7 +41,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="recurso/transaccion.jpg" alt="">
+                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -49,7 +49,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="recurso/transaccion.jpg" alt="">
+                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
 
                     </i>
                 </div>
@@ -61,48 +61,48 @@
         
     </section>
 </section>   
-<footer>
-      <div class="footer-container">
-        <div class="column">
-          <div class="f-descri">
-              <div>
-                <img src="recurso/logo1.png" alt="" style="width: 200px;">
-              </div>
-              <div class="f-descri">
-                <p>ibcarshop.com es una plataforma de compra y venta de vehiculos comerciales de distintas ramas y categorias a precios accesibles y de manera segura</p>
-              </div>
-          </div>
-        </div>
-      
-        <div class="column">
-          <div class="f-descri">
-            <h1>Canales digitales</h1>
+<!-- <footer>
+    <div class="footer-container">
+    <div class="column">
+        <div class="f-descri">
             <div>
-              <a href=""><img src="recurso/facebook-icon.png" alt=""></a>
-              <a href=""><img src="recurso/twitter-icon.png" alt=""></a>
-              <a href=""><img src="recurso/linkedin-icon.png" alt=""></a>
-              
+            <img src="recurso/logo1.png" alt="" style="width: 200px;">
             </div>
-            <div class="text">
-              <h2>Atencion comercial</h2>
-              <p>Lunes-Viernes: 8am a 6pm</p>
-              <p>Sabado: 8am a 2pm</p>
+            <div class="f-descri">
+            <p>ibcarshop.com es una plataforma de compra y venta de vehiculos comerciales de distintas ramas y categorias a precios accesibles y de manera segura</p>
             </div>
-          </div>
         </div>
-        <div class="column">
-          <div class="f-descri">
-            <h1>Contáctanos</h1>
-            <p>Av. Circunvalación Golf Los Incas Nro. 208, Torre 3, Oficina 602B , Santiago de Surco</p>
-            <p>Móvil:(+51) 982 375 435</p>
-            <p>E-Mail:ibcarshop@corpibgroup.com</p>
-          </div>
+    </div>
+    
+    <div class="column">
+        <div class="f-descri">
+        <h1>Canales digitales</h1>
+        <div>
+            <a href=""><img src="recurso/facebook-icon.png" alt=""></a>
+            <a href=""><img src="recurso/twitter-icon.png" alt=""></a>
+            <a href=""><img src="recurso/linkedin-icon.png" alt=""></a>
+            
         </div>
-      </div>
-  </footer>
+        <div class="text">
+            <h2>Atencion comercial</h2>
+            <p>Lunes-Viernes: 8am a 6pm</p>
+            <p>Sabado: 8am a 2pm</p>
+        </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="f-descri">
+        <h1>Contáctanos</h1>
+        <p>Av. Circunvalación Golf Los Incas Nro. 208, Torre 3, Oficina 602B , Santiago de Surco</p>
+        <p>Móvil:(+51) 982 375 435</p>
+        <p>E-Mail:ibcarshop@corpibgroup.com</p>
+        </div>
+    </div>
+    </div>
+</footer>
 <footer> 
     <div class="copyrights">
-    <p> &#174 Copyright &copy <?= date('Y') ?> Corporación CorpIbGroup | All Rights Reserved</p>
+    <p> &#174 Copyright &copy  Corporación CorpIbGroup | All Rights Reserved</p>
     </div>
 </footer>
 <script>
@@ -117,5 +117,5 @@
 
 <!-- -->
 
-</body>
-</html>
+<!-- </body>
+</html> -->
