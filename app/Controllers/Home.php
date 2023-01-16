@@ -16,15 +16,22 @@ class Home extends BaseController {
         $datos['vehiculos']= $vehiculo->orderBy('cat_id','ASC')->findAll();
 
         return view('head').
-        view('listar',$datos);
+        view('cabecera').
+        view('parte1').
+        view('listar',$datos).
+        view('equipo3').
+        view('parte1-footer');
     }
 
     public function vehiculos($id = null){
         // echo "datos de auto" . $id;
         $vehiculo2=  new Mostrarvehiculo();
         $datos2['vehiculos2']= $vehiculo2->where('cat_id',$id)->findAll();
+        
         return view('head').
-        view('lista-vehiculos',$datos2);
+        view('cabecera').
+        view('lista-vehiculos',$datos2).
+        view('parte1-footer');
     }
 
     // public function getVehsssiculo($slug = null){
@@ -49,7 +56,9 @@ class Home extends BaseController {
         $data['titulo'] = $data['vehiculo'][0]['version'];
     
         return view('head').
-        view('info-vehiculo',$data);     
+        view('cabecera').
+        view('info-vehiculo',$data).
+        view('parte1-footer');     
     }
 
     
