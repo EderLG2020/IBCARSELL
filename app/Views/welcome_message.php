@@ -51,7 +51,7 @@
         </div>
         
         <div class="mensaje">
-            <h2>Compra y venta de vehiculos <br>
+            <h2>Chiculos <br>
             todo en un solo lugar , de la manera mas segura <br> y confiable. Contamos con diferentes gamas de vehiculos</h2>
         </div>
     </div>
