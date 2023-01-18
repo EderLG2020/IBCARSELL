@@ -1,6 +1,6 @@
 
 .header {
-   background-color: azure;
+   background-color: rgb(243, 115, 24);
    height: 80px;
    position: fixed;
    /*Al hacer scroll queda fija la barra de navegación*/
@@ -61,7 +61,7 @@
 .nav-menu-link_active {
    background-color: #034574;
    transition: 0.5s;
-   color: #fff;
+   color: rgb(243, 115, 24); /*#fff*/ 
 }
 
 /* TOGGLE */
@@ -94,7 +94,7 @@ width: 30%;
    }
 
    .header {
-      height: 60px;
+      height: 80PX;
    }
 
    #logo-nav {
@@ -127,7 +127,7 @@ width: 30%;
    .nav-menu-link:hover,
    .nav-menu-link_active {
       background: none;
-      color: #83c5f7;
+      color: rgb(243, 115, 24); /*#83c5f7*/
    }
 
    .nav-toggle {
@@ -152,10 +152,12 @@ width: 30%;
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
 }
+
+
 /*:::::Pie de Pagina*/
 .pie-pagina {
    width: 100%;
-   background-color: cadetblue;
+   background-color: rgb(212, 125, 49);
    padding: 10px;
 }
 

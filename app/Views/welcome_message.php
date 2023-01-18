@@ -9,11 +9,6 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     <link rel="stylesheet" href="./public/css/style.css">
 
-    <!-- STYLES -->
-<!-- 
-    <style {csp-style-nonce}>
-        
-    </style> -->
 </head>
 <body>
 

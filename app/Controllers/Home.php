@@ -15,6 +15,7 @@ class Home extends BaseController {
         $vehiculo=  new Vehiculo();
         $datos['vehiculos']= $vehiculo->orderBy('cat_id','ASC')->findAll();
 
+        
         return view('head').
         view('cabecera').
         view('parte1').

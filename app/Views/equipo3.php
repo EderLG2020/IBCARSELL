@@ -25,6 +25,10 @@
             
         </div>
 </header> -->
+
+<link rel="stylesheet" href="./public/css/grupo3.css">
+
+
 <section>
     <section class="preguntas-f">
         <h1 class="titulo">Preguntas Frecuentes</h1>      
@@ -33,7 +37,7 @@
         <div class="Container-card">
             <div class="card c1">
                 <div class="icon">
-                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
+                    <img src="./recursos/transaccion.jpg" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -41,7 +45,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
+                    <img src="./recursos/transaccion.jpg" alt="">
                 </div>
                 <div class="info-description">
                     <p>La comisión por el servicio estándar será pagada por el Usuario Vendedor siempre que se concrete la transferencia a través de los Puntos de Encuentro seguros de IBCarsell, el cual será equivalente al 2% + IGV del precio de venta acordado en la transacción con el Comprador.</p>
@@ -49,7 +53,7 @@
             </div>
             <div class="card c1">
                 <div class="icon">
-                    <img src="<?= base_url('recursos/transaccion.jpg')?>" alt="">
+                    <img src="./recursos/transaccion.jpg" alt="">
 
                     </i>
                 </div>

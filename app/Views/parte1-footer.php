@@ -1,7 +1,7 @@
 <footer class="pie-pagina">
    <div class="grupo-1">
       <div class="box">
-            <img src="<?=base_url('public/assets/grupo1/logo.svg')?>" alt="Logo" class="logo-footer">
+            <img src="./public/assets/grupo1/logo.svg" alt="Logo" class="logo-footer">
             <h3>ibcarshop.com es una plataforma<br>
                de compra y venta de vehículos <br>
                comercialesde distintas ramas y <br>
