@@ -142,7 +142,7 @@ img{
     font-family: Montserrat,sans-serif;
 }
 .marcado{
-   position: absolute;
+    position: absolute;
     visibility: hidden;
     width: 100%;
     height: 60px;
@@ -151,10 +151,9 @@ img{
     background: rgb(255,165,0);
 background: linear-gradient(0deg, rgba(255,165,0,0) 0%, rgba(255,165,0,0.3534663865546218) 45%, rgba(252,176,69,1) 100%);
     animation: fmarcar 15s infinite;
-}
-.encabezado{
     
 }
+
 @keyframes fmarcar{
     0%{
         background-position: 0% 50%;
