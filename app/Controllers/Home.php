@@ -61,6 +61,6 @@ class Home extends BaseController {
         view('info-vehiculo',$data).
         view('parte1-footer');     
     }
-
+    
     
 }

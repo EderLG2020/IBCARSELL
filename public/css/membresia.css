@@ -1,0 +1,168 @@
+.container-venta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container-plan-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tittle-venta{
+    margin-top: 50px;
+    font-family: montserrat,sans-serif;
+}
+.plan-box{
+    display: flex;
+    flex-direction: column  ;
+    font-family: sans-serif,bold;
+    width: 250px;
+    height: 500px;
+    
+    margin: 10px;
+    border-radius: 10px;    
+    border: 1px solid #A2A2A2;
+    transition: transform .2s;
+    align-items: center;
+    background-color: #fff;
+    /* border: 2px ;
+    border-color: orange;
+    border-style: double; */
+}
+.plan-box h3{
+    margin-top: 40px;
+    font-family: Montserrat, semibold;
+}
+.plan-box:hover{
+    transform: scale(1.05);
+    box-shadow: -1px 9px 18px 3px rgba(0,0,0,0.36);
+-webkit-box-shadow: -1px 9px 18px 3px rgba(0,0,0,0.36);
+-moz-box-shadow: -1px 9px 18px 3px rgba(0,0,0,0.36);
+}
+.plan-box:hover .marcado{
+    transition: 2s;
+    visibility: visible;
+}
+.box-button input{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 150px;
+    height: 35px;
+    padding: 3px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px 1px #A2A2A2;
+    cursor: pointer;
+}
+
+.plan-box a{
+    display: flex;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px 1px #A2A2A2;
+}
+.box-button input:hover{
+    background: orange;
+    color: #fff;
+}
+.box-explication{
+    align-items: flex-start;
+    text-align: start;
+    margin: 30px 0;
+    width: 70%;
+    height: 198px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-explication h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 50%;
+    
+}
+.popup{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: .3s ease all;
+}
+.popup.active{opacity: 1;}
+.overlay{
+    background: rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.overlay.active{
+    visibility: visible;
+}
+.popup .button-cerrar-popup{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbb;
+    transition: .3s ease all;
+    margin: 10px;
+}
+.button-cerrar-popup:hover{
+    color: black;
+}
+.popup h2{
+    font-family: Montserrat,sans-serif;
+}
+.marcado{
+   position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    background: rgb(255,165,0);
+background: linear-gradient(0deg, rgba(255,165,0,0) 0%, rgba(255,165,0,0.3534663865546218) 45%, rgba(252,176,69,1) 100%);
+    animation: fmarcar 15s infinite;
+}
+.encabezado{
+    
+}
+@keyframes fmarcar{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
